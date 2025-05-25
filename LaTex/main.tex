@@ -1,0 +1,58 @@
+\documentclass[12pt]{article} % Base document class
+\usepackage[a4paper,margin=1in]{geometry} % Adjust margins to mimic Word
+\usepackage{times} % Set font to Times New Roman
+\usepackage{setspace} % For line spacing
+\onehalfspacing % 1.5-line spacing, common in Word documents
+\usepackage{parskip} % Add spacing between paragraphs like Word
+\usepackage{amsmath, amssymb, amsfonts, amscd}
+\usepackage[export]{adjustbox}
+\usepackage{wrapfig}
+\usepackage{subcaption}
+\usepackage{tabularx}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{paralist}
+\usepackage{multicol}
+\usepackage{gensymb}
+\usepackage{gensymb}
+\usepackage{mathtools}
+\usepackage[draft]{hyperref}
+\usepackage{cite}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{mathrsfs}
+\usepackage{esint}
+\usepackage{bm}
+\usepackage{comment}
+\usepackage{mathrsfs}
+
+
+\graphicspath{{Figures/}} % LaTeX will look for images in the 'figures' folder
+\captionsetup[figure]{labelfont=bf, labelsep=colon}
+
+\begin{document}
+	
+	\begin{titlepage}
+		\centering
+		\vspace*{1.5cm} % Add vertical space at the top
+		{\LARGE\textbf{The Sheath Helix Model of Helical Coils}}\\[4cm]
+		\includegraphics[width=0.5\textwidth]{asu.jpg} \\[3cm]
+		{\Large Jacob Anderson} \\[3.5cm]
+		{\large EEE590 Reading and Conference} \\[1cm]
+		{\large May 2025}
+	\end{titlepage}
+
+\tableofcontents
+\newpage
+\input{introduction}
+\input{electromagnetism}
+\input{geometry}
+\input{sheath}
+%\input{transmission}
+\input{conclusion}
+\newpage
+\bibliographystyle{IEEEtran} % Use IEEE style
+\bibliography{bibliography}    % Point to your .bib file
+	
+\end{document}

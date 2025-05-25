@@ -1,0 +1,25 @@
+# Ignore LaTeX build files
+*.aux
+*.log
+*.toc
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
+*.lof
+*.lot
+*.idx
+*.ilg
+*.ind
+
+# Ignore backup files
+*~
+*.bak
+EEE 590_790 Reading and Conference Request.pdf
+EEE 590790 Reading and Conference Grade and Report Submission
+EEE590_Final_Report_Jacob_Anderson_mkr
